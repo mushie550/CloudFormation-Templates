@@ -36,3 +36,11 @@ Resources:
       Tags:
         - Key: Name
           Value: CFN-EC2-Instance
+Outputs:
+  InstanceId:
+    Description: EC2 Instance ID
+    Value: !Ref EC2Instance
+
+  PublicIP:
+    Description: Public IP address of EC2
+    Value: !GetAtt EC2Instance.PublicIp
