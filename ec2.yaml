@@ -32,7 +32,7 @@ Resources:
       KeyName: !Ref KeyName
       SecurityGroupIds:
         - !Ref EC2SecurityGroup
-      ImageId: ami-0f5ee92e2d63afc18
+      ImageId: ami-043f8ebc182ad5abd
       Tags:
         - Key: Name
           Value: CFN-EC2-Instance
